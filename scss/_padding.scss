@@ -1,0 +1,77 @@
+$padding: p;
+
+// set the famous double zero
+.#{$padding}00 {
+    padding: 0 0;
+}
+
+// loops all margin
+@for $i from 1 through 9 {
+
+    // for each $m#{i} 
+    .#{$padding}#{$i} {
+        // interations
+        padding:$i+em;
+    }
+}
+
+// loops top and bottom margin
+@for $i from 1 through 9 {
+
+    // for each $m#{i} 
+    .#{$padding}#{$i}0 {
+        // interations
+        padding:$i+em 0;
+    }
+}
+
+// loops top and bottom margin
+@for $i from 1 through 9 {
+
+    // for each $m#{i} 
+    .#{$padding}0#{$i} {
+        // interations
+        padding:0, $i+em;
+    }
+}
+
+// loops just top
+@for $i from 1 through 9 {
+
+    // for each $m#{i} 
+    .#{$padding}t#{$i} {
+        // interations
+        padding-top:$i+em;
+    }
+}
+
+// loops just right
+@for $i from 1 through 9 {
+
+    // for each $m#{i} 
+    .#{$padding}r#{$i} {
+        // interations
+        padding-right:$i+em;
+    }
+}
+
+// loops just bottom
+@for $i from 1 through 9 {
+
+    // for each $m#{i} 
+    .#{$padding}b#{$i} {
+        // interations
+        padding-bottom:$i+em;
+    }
+}
+
+// loops just left
+@for $i from 1 through 9 {
+
+    // for each $m#{i} 
+    .#{$padding}l#{$i} {
+        // interations
+        padding-left:$i+em;
+    }
+}
+
