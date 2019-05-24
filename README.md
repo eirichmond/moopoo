@@ -15,18 +15,68 @@ This will provide the css needed for your project
 values are in em, overall values can be applied, top and bottom values can be applied and individual values can be applied
 
 ## how to use
-The logic is simple, use `m` for margin and `p` for padding, followed by the numeric value for the space you want to use in 'em'
+The logic is simple, use `m` for margin and `p` for padding, followed by the numeric value for the space you want to use in 'em' and add that class to your inline html element e.g. 
 
-`x` = a numeric value  
-`mx` A single numeric value applies space all around the element.  
-`mxx` A double numeric value applies space to the top & bottom or left & right.  
-`mtx` A top numeric value.  
-`mlx` A left numeric value.  
-`mbx` A bottom numeric value.  
-`mrx` A right numeric value.  
+Uses a numeric value from 1 to 9
 
-### classic moo
-`m00` zero margin all around an element by adding the class `.m00` to an element.
+    `<div class="mt5 ml3 mb2 mr3">Adds 5em to the top, 3em to the left, 3em to the bottom and 3em to the right</div>`
 
-### classid poo
-`p00` zero padding all around an element by adding the class `.p00` to an element.
+A single numeric value applies space all around the element.  
+
+    `m1`
+    
+Use a double numeric value to apply space to the top & bottom or left & right. 
+
+    `m20` 
+    `m05` 
+
+Use `t` followed by a numeric value to apply space to the top.
+
+    `mt2`
+    
+Use `r` followed by a numeric value to apply space to the right.
+
+    `mrx`
+
+Use `b` followed by a numeric value to apply space to the bottom.
+
+    `mbx`
+    
+Use `l` followed by a numeric value to apply space to the left.
+
+    `mlx` 
+    
+# html examples
+    
+### classic moo poo
+zero margin all around an element by adding the class `m00` to an element.
+
+    `<div class="your-custom-class m00 poo">
+        <h1>Your parent element has zero margin and zero padding all around</h1>
+    </div>`
+      
+### margin all
+
+    <div class="your-custom-class m5">
+        <h1>Your parent element now has a 5em margin all around</h1>
+    </div>
+    
+### margin top and bottom
+
+    <div class="your-custom-class m50">
+        <h1>Your parent element now has a 5em margin top and bottom</h1>
+    </div>
+    
+### padding all
+
+    <div class="your-custom-class p5">
+        <h1>Your parent element now has a 5em padding all around</h1>
+    </div>
+    
+### padding left and right
+
+    <div class="your-custom-class p05">
+        <h1>Your parent element now has a 5em padding left and right</h1>
+    </div>
+    
+
