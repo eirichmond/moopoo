@@ -19,7 +19,7 @@ The logic is simple, use `m` for margin and `p` for padding, followed by the num
 
 Uses a numeric value from 1 to 9
 
-    <div class="mt5 ml3 mb2 mr3">5em top, 3em left, 3em bottom and 3em right</div>
+    <div class="mt5 ml3 mb2 mr3">5em top, 3em left, 2em bottom and 3em right</div>
 
 A single numeric value applies space all around the element.  
 
