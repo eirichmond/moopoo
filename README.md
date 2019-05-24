@@ -2,10 +2,12 @@
 A simple set of css classes for margin and padding
 
 Clone the repo and use the following to install dependencies  
-`npm install`
+
+    `npm install`
 
 Once everything has installed use the following to compile the css  
-`npm run scss`
+
+    `npm run scss`
 
 This will provide the css needed for your project
 
