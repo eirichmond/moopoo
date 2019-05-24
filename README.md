@@ -51,7 +51,7 @@ Use `l` followed by a numeric value to apply space to the left.
 ### classic moo poo
 zero margin all around an element by adding the class `m00` and `p00` to an element.
 
-    <div class="your-custom-class m00 poo">
+    <div class="your-custom-class m00 p00">
         <h1>Your parent element has zero margin and zero padding all around</h1>
     </div>
       
