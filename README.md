@@ -3,11 +3,11 @@ A simple set of css classes for margin and padding
 
 Clone the repo and use the following to install dependencies  
 
-    `npm install`
+    npm install
 
 Once everything has installed use the following to compile the css  
 
-    `npm run scss`
+    npm run scss
 
 This will provide the css needed for your project
 
@@ -19,41 +19,41 @@ The logic is simple, use `m` for margin and `p` for padding, followed by the num
 
 Uses a numeric value from 1 to 9
 
-    `<div class="mt5 ml3 mb2 mr3">Adds 5em to the top, 3em to the left, 3em to the bottom and 3em to the right</div>`
+    <div class="mt5 ml3 mb2 mr3">5em top, 3em left, 3em bottom and 3em right</div>
 
 A single numeric value applies space all around the element.  
 
-    `m1`
+    m1
     
 Use a double numeric value to apply space to the top & bottom or left & right. 
 
-    `m20` 
-    `m05` 
+    m20
+    m05
 
 Use `t` followed by a numeric value to apply space to the top.
 
-    `mt2`
+    mt2
     
 Use `r` followed by a numeric value to apply space to the right.
 
-    `mrx`
+    mr4
 
 Use `b` followed by a numeric value to apply space to the bottom.
 
-    `mbx`
+    mb6
     
 Use `l` followed by a numeric value to apply space to the left.
 
-    `mlx` 
+    ml8
     
 # html examples
     
 ### classic moo poo
 zero margin all around an element by adding the class `m00` to an element.
 
-    `<div class="your-custom-class m00 poo">
+    <div class="your-custom-class m00 poo">
         <h1>Your parent element has zero margin and zero padding all around</h1>
-    </div>`
+    </div>
       
 ### margin all
 
